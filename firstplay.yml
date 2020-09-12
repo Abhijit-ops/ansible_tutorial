@@ -1,0 +1,9 @@
+---
+
+- hosts: first
+  roles:
+   - httpd
+
+- hosts: second
+  roles:
+   - mysql 
